@@ -171,3 +171,5 @@ print(f'Total evaluation time: {evaluation_time:.2f} seconds')
 Conclusion
 
 This report presents the implementation details of a Kolmogorov-Arnold Network (KAN) for the MNIST dataset using PyTorch. The precomputation of B-spline basis functions, careful selection of splines and degrees, and optimization using Adam with specifically chosen parameters all contribute to the model's performance. The KAN model demonstrates its effectiveness by achieving approximately 90% accuracy on the MNIST test set in one epoch, highlighting its potential as an alternative to traditional neural network architectures.
+
+![Results](results.png)
